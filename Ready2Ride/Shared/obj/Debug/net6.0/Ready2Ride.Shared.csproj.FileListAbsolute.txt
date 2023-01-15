@@ -1,0 +1,12 @@
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\bin\Debug\net6.0\Ready2Ride.Shared.deps.json
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\bin\Debug\net6.0\Ready2Ride.Shared.dll
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\bin\Debug\net6.0\Ready2Ride.Shared.pdb
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\Ready2Ride.Shared.csproj.AssemblyReference.cache
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\Ready2Ride.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\Ready2Ride.Shared.AssemblyInfoInputs.cache
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\Ready2Ride.Shared.AssemblyInfo.cs
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\Ready2Ride.Shared.csproj.CoreCompileInputs.cache
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\Ready2Ride.Shared.dll
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\refint\Ready2Ride.Shared.dll
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\Ready2Ride.Shared.pdb
+C:\Users\88016\Source\Repos\Ready2Ride\Ready2Ride\Shared\obj\Debug\net6.0\ref\Ready2Ride.Shared.dll
