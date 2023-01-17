@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4HAwIMr/F0KmqABv/eeJg/BI90+ct79cr8Ze7hDpXuY=",
+  "Hash": "J7y3+c5Qt0T/RvLNPL/2o17szdMnom7cATAKtYabFwk=",
   "Source": "Ready2Ride.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "Ready2Ride.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "Ready2Ride.Client",
       "SourceType": "Computed",
@@ -168,23 +185,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -7072,23 +7072,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Ready2Ride.Client",
       "SourceType": "Discovered",
@@ -7191,6 +7174,23 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Ready2Ride.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Ready2Ride.Client",
       "SourceType": "Discovered",
@@ -7223,23 +7223,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
-    },
-    {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\favicon.ico",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\icon-192.png",
