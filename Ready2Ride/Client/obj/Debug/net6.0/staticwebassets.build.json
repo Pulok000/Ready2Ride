@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J7y3+c5Qt0T/RvLNPL/2o17szdMnom7cATAKtYabFwk=",
+  "Hash": "Lddedqq3eVGzUzVnTppbs5oq3IQIvdNHNMhSCdIOmHk=",
   "Source": "Ready2Ride.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,23 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.12\\staticwebassets\\AuthenticationService.js",
-      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.12\\staticwebassets\\",
-      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
-      "RelativePath": "AuthenticationService.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.12\\staticwebassets\\AuthenticationService.js"
-    },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Ready2Ride.Client",
@@ -204,23 +187,6 @@
       "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
       "SourceId": "Ready2Ride.Client",
       "SourceType": "Computed",
@@ -270,23 +236,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -508,23 +457,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
-    },
-    {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\88016\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
@@ -3553,23 +3485,6 @@
       "OriginalItemSpec": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\obj\\Debug\\net6.0\\build-gz\\+FL+oqFD.gz",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
-    },
-    {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\obj\\Debug\\net6.0\\build-gz\\+o08Bruk.gz",
       "SourceId": "Ready2Ride.Client",
       "SourceType": "Computed",
@@ -5831,23 +5746,6 @@
       "OriginalItemSpec": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.dll"
     },
     {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\obj\\Debug\\net6.0\\build-gz\\qLl+8tyN.gz",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\obj\\Debug\\net6.0\\build-gz\\qqQrPt8K.gz",
       "SourceId": "Ready2Ride.Client",
       "SourceType": "Computed",
@@ -6424,23 +6322,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Thread.dll"
-    },
-    {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\obj\\Debug\\net6.0\\build-gz\\ViGsQOJE.gz",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\obj\\Debug\\net6.0\\build-gz\\Voi0dEvg.gz",
@@ -7223,6 +7104,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\favicon.ico",
+      "SourceId": "Ready2Ride.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\icon-192.png",

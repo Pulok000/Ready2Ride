@@ -1,7 +1,4 @@
 ﻿@page "/"
-@inject HttpClient Http
-
-@using Ready2Ride.Shared;
 
 <PageTitle>Index</PageTitle>
 
@@ -10,14 +7,3 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
-
-@code{
-
-
-    protected override async Task OnInitializedAsync()
-    {
-        var heroes = await Http.GetFromJsonAsync<List<SuperHero>>("api/superhero");
-    }
-
-
-}
