@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GUYMgrnIKDi5NGRyT5eviDSji6Tpy6tFBRCZK1ZITGg=",
+  "Hash": "bf2Upa+8jmlg4Nc4jHVfE1dNN4+X5wD4CGMkjPLi3Ds=",
   "Source": "Ready2Ride.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7223,23 +7223,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
-    },
-    {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\favicon.ico",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\icon-192.png",
