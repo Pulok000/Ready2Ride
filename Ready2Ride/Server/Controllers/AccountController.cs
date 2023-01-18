@@ -12,7 +12,7 @@ namespace Ready2Ride.Server.Controllers
             _db = db;
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }

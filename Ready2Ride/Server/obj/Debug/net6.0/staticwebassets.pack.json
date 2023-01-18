@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Server\\wwwroot\\js\\script-custom-calendar.js",
+      "PackagePath": "staticwebassets\\js\\script-custom-calendar.js"
+    },
+    {
       "Id": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Server\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
