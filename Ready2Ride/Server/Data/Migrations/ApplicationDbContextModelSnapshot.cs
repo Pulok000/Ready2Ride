@@ -100,7 +100,7 @@ namespace Ready2Ride.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(52800)
+                        .HasMaxLength(50840)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
@@ -151,7 +151,7 @@ namespace Ready2Ride.Server.Data.Migrations
                     b.Property<string>("Data")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
-                        .HasMaxLength(52800);
+                        .HasMaxLength(50840);
 
                     b.Property<bool>("DataProtected")
                         .HasColumnType("bit");
@@ -192,7 +192,7 @@ namespace Ready2Ride.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(52800)
+                        .HasMaxLength(50840)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")

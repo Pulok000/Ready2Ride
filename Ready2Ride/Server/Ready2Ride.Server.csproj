@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>Ready2Ride.Server-4b4946e9-c40b-4475-91e1-72081781a9c1</UserSecretsId>
+    <UserSecretsId>Ready2Ride.Server-1cc4aeac-629f-4c1b-a7be-1c6c83781d15</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,10 +3,10 @@ C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroo
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.13.pmfk6djcpo.js
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
+C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
-C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
@@ -838,4 +838,3 @@ C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\obj\Debug\net6.0\Ready2
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\obj\Debug\net6.0\refint\Ready2Ride.Client.dll
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\obj\Debug\net6.0\Ready2Ride.Client.pdb
 C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\obj\Debug\net6.0\ref\Ready2Ride.Client.dll
-C:\Users\88016\source\repos\Ready2Ride\Ready2Ride\Client\bin\Debug\net6.0\libman.json

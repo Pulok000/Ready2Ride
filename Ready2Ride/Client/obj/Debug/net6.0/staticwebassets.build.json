@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j5Z4bOwHj74XYfMBbzdPt2SX3vTFR3Pa5px2p+QaPVk=",
+  "Hash": "J7y3+c5Qt0T/RvLNPL/2o17szdMnom7cATAKtYabFwk=",
   "Source": "Ready2Ride.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7257,23 +7257,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\script-custom-calendar.js",
-      "SourceId": "Ready2Ride.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "script-custom-calendar.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\script-custom-calendar.js"
     }
   ]
 }
