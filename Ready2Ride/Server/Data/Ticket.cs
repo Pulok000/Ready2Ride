@@ -6,6 +6,6 @@
         public string UserName { get; set; }
         public string Email { get; set; }
         public string BusName { get; set; }
-        public string ScheduleDate { get; set; }
+        public DateTime ScheduleDate { get; set; }
     }
 }

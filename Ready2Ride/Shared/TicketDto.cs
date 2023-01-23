@@ -18,7 +18,7 @@ namespace Ready2Ride.Shared
         [Required]
         public string BusName { get; set; }
         [Required]
-        public string ScheduleDate { get; set; }
+        public DateTime ScheduleDate { get; set; }
 
         public TicketDto()
         {

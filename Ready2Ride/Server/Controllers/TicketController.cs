@@ -43,6 +43,23 @@ namespace Ready2Ride.Server.Controllers
         }
 
 
+        [HttpPost]
+        [Route("AddTicket")]
+        public async Task<IActionResult> AddTicket(TicketDto newTicket)
+        {
+            var ticket = new Ticket
+            {
+                BusName = newTicket.BusName,
+                ScheduleDate = newTicket.ScheduleDate,
+                UserName = newTicket.UserName,
+                Email = newTicket.Email
+            };
+
+            _context.Tickets.Add(ticket);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetTicket", new { id = ticket.Id }, ticket);
+        }
 
 
     }

@@ -6,41 +6,49 @@
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
 
+<h1>Bus Ticket Schedule</h1>
 
+<EditForm Model="@ticket" OnValidSubmit="ScheduleTicket">
+    
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Bus Ticket Scheduling</title>
-    <style>
-        /* Add some styling to improve the look of the page */
-        label {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <h1>Bus Ticket Schedule</h1>
-    <form>
-        <label for="busList">Select a bus:</label>
-        <select id="busList" name="bus">
-            <option value="BRTC">BRTC</option>
-            <option value="IKBAL">IKBAL</option>
-            <option value="BUS3">BUS3</option>
-            <option value="BUS4">BUS4</option>
-            <option value="BUS5">BUS5</option>
-        </select>
-        <br><br>
-        <label for="date">Select a date:</label>
-        <input type="date" id="date" name="date">
-        <br><br>
-        <input type="submit" value="Schedule Ticket">
-    </form>
-</body>
-</html>
+    <div class="mb-3">
+        <label for="UserName">UserName:</label>
+        <div class="mb-3">
+            <input type="text" class="form-control" @bind-value="ticket.UserName">
+        </div>
 
+    </div>
+    <div class="mb-3">
+        <label for="Email">Email:</label>
+        <div class="mb-3">
+            <input type="email" class="form-control" @bind-value="ticket.Email">
+        </div>
+
+    </div>
+
+    <div class="mb-3">
+        <label for="BusName">Bus name:</label>
+        <div class="mb-3">
+            <input type="text" class="form-control" @bind-value="ticket.BusName">
+        </div>
+
+    </div>
+
+    <div class="mb-3">
+        <label for="Date">Date:</label>
+        <div class="mb-3">
+            <input type="date" class="form-control" @bind-value="ticket.ScheduleDate">
+        </div>
+
+    </div>
+    <input type="submit" value="Schedule Ticket">
+
+</EditForm>
 
 @code {
-    public List<TicketDto>? ticket = new List<TicketDto>();
-
+    protected TicketDto ticket = new TicketDto();
+    async Task ScheduleTicket()
+    {
+        var response = await Http.PostAsJsonAsync("api/Ticket/AddTicket", ticket);
+    }
 }
