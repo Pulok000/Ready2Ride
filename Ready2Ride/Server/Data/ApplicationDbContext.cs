@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Ready2Ride.Server.Models;
+using Ready2Ride.Shared;
 
 namespace Ready2Ride.Server.Data
 {
@@ -13,5 +14,6 @@ namespace Ready2Ride.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }

@@ -10,52 +10,48 @@
 
 <h3>TicketList</h3>
 
-@if (user == null)
+@if (ticket == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
 
-    <button class="btn btn-light" @onclick="BuyTicket"> Buy Ticket</button>
 
     <table class="table">
         <thead>
             <tr>
-                <th>UserId</th>
+                <th>Id</th>
                 <th>UserName</th>
                 <th>Email</th>
-                <th>Email Confimation</th>
-                <th>First Name</th>
-                <th>Last Name</th>
+                <th>BusName</th>
+                <th>ScheduleDate</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var n in user)
+            @foreach (var n in ticket)
             {
                 <tr>
-                    <td>@n.UserId</td>
+                    <td>@n.Id</td>
                     <td>@n.UserName</td>
                     <td>@n.Email</td>
-                    <td>@n.EmailConfirmation</td>
-                    <td>@n.FirstName</td>
-                    <td>@n.LastName</td>
+                    <td>@n.BusName</td>
+                    <td>@n.ScheduleDate</td>
                 </tr>
             }
         </tbody>
     </table>
 }
 
-
 @code {
-    public List<UserDto>? user = new List<UserDto>();
+    public List<TicketDto>? ticket = new List<TicketDto>();
 
     protected override async Task OnInitializedAsync()
     {
 
         try
         {
-            user = await Http.GetFromJsonAsync<List<UserDto>>("api/UserManagement");
+            ticket = await Http.GetFromJsonAsync<List<TicketDto>>("api/Ticket");
         }
         catch (AccessTokenNotAvailableException exception)
         {
@@ -65,9 +61,6 @@ else
 
     }
 
-    public void BuyTicket()
-    {
-        NavigationManager.NavigateTo("/buyticket");
-    }
+
 
 }

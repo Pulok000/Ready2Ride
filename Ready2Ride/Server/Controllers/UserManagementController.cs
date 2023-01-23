@@ -24,6 +24,7 @@ namespace Ready2Ride.Server.Controllers
             _usermanager= usermanager;
         }
 
+
         [HttpGet]
         public async Task<ActionResult> GetUser()
         {
@@ -45,11 +46,8 @@ namespace Ready2Ride.Server.Controllers
             return Ok(u);
         }
 
-        [HttpPost]
-        public async Task<ActionResult> BuyTicket()
-        {
 
-        }
+
 
 
 
