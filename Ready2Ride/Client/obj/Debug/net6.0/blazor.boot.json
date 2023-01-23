@@ -199,15 +199,15 @@
       "mscorlib.dll": "sha256-KqZqU1imWCwJ9UPDElyoolN8s7Yqhjk67wuOohFN5KA=",
       "netstandard.dll": "sha256-kBK\/QJy7\/skP97jqnvXnOFMrhWS8HZ1bsADFK\/gZkyM=",
       "System.Private.CoreLib.dll": "sha256-3webPuyNUXfAFKY5c1tC\/jBVrjZHelBwvXrr1E9VJuk=",
-      "Ready2Ride.Shared.dll": "sha256-ADBtEgRj6o74wea\/1xNSYcgbdbPoW7owl6nq5jDvSVg=",
-      "Ready2Ride.Client.dll": "sha256-54SVeCR24ak2aDUF9EJQnG\/ekVYqa2EMGWvfkCrYK68="
+      "Ready2Ride.Shared.dll": "sha256-ge\/Mc+TiCfufCJEPNdvMqBp3dAGGwJ1l+90choAvsDs=",
+      "Ready2Ride.Client.dll": "sha256-1vn0\/KRoYTBxC\/Nh56Ba7tr8Gy0PDfoRzu7RuR3\/YC0="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Ready2Ride.Shared.pdb": "sha256-b9oTV7xJzum77Qkr7aPrDLPrhgJ\/2+t184QTlzdt1ZU=",
-      "Ready2Ride.Client.pdb": "sha256-JIAGc0Dal4xTI67PEYEJ0C0A9T+uuueq52ORCm69L2k="
+      "Ready2Ride.Shared.pdb": "sha256-x44jQZSCkbOhwuFF7e192t4d45HHQlz0Xbed\/hHnM3U=",
+      "Ready2Ride.Client.pdb": "sha256-GtfV1yzlfoF8cqVDb3nhT\/hm1SR5Fu9pK+6qPQ3D2BI="
     },
     "runtime": {
       "dotnet.6.0.13.pmfk6djcpo.js": "sha256-X\/515F1HEzgsDZdY8BJjt8YUwrWngHGZkMnpClhsrpY=",

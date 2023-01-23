@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ready2Ride.Server", "Ready2Ride\Server\Ready2Ride.Server.csproj", "{5CEB3E1D-6863-402E-8338-7D6F7B422D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ready2Ride.Server", "Ready2Ride\Server\Ready2Ride.Server.csproj", "{5CEB3E1D-6863-402E-8338-7D6F7B422D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ready2Ride.Client", "Ready2Ride\Client\Ready2Ride.Client.csproj", "{0B456A20-867B-436E-89FC-616C9F09FE31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ready2Ride.Client", "Ready2Ride\Client\Ready2Ride.Client.csproj", "{0B456A20-867B-436E-89FC-616C9F09FE31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ready2Ride.Shared", "Ready2Ride\Shared\Ready2Ride.Shared.csproj", "{3473CAB7-FDE2-4CE9-9745-E1E821CB6701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ready2Ride.Shared", "Ready2Ride\Shared\Ready2Ride.Shared.csproj", "{3473CAB7-FDE2-4CE9-9745-E1E821CB6701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
