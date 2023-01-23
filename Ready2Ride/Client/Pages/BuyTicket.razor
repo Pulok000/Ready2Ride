@@ -1,0 +1,43 @@
+﻿@page "/buyticket"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Ready2Ride.Shared;
+@attribute [Authorize]
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Ticket Scheduling</title>
+    <style>
+        /* Add some styling to improve the look of the page */
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bus Ticket Schedule</h1>
+    <form>
+        <label for="busList">Select a bus:</label>
+        <select id="busList" name="bus">
+            <option value="BRTC">BRTC</option>
+            <option value="IKBAL">IKBAL</option>
+            <option value="BUS3">BUS3</option>
+            <option value="BUS4">BUS4</option>
+            <option value="BUS5">BUS5</option>
+        </select>
+        <br><br>
+        <label for="date">Select a date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <input type="submit" value="Schedule Ticket">
+    </form>
+</body>
+</html>
+
+
+@code {
+
+}

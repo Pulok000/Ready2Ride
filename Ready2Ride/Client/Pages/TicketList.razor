@@ -1,6 +1,7 @@
 ﻿@page "/ticketlist"
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Ready2Ride.Shared;
 @attribute [Authorize]
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
@@ -9,6 +10,64 @@
 
 <h3>TicketList</h3>
 
+@if (user == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+    <button class="btn btn-light" @onclick="BuyTicket"> Buy Ticket</button>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>UserId</th>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>Email Confimation</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var n in user)
+            {
+                <tr>
+                    <td>@n.UserId</td>
+                    <td>@n.UserName</td>
+                    <td>@n.Email</td>
+                    <td>@n.EmailConfirmation</td>
+                    <td>@n.FirstName</td>
+                    <td>@n.LastName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
 @code {
+    public List<UserDto>? user = new List<UserDto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        try
+        {
+            user = await Http.GetFromJsonAsync<List<UserDto>>("api/UserManagement");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+
+
+    }
+
+    public void BuyTicket()
+    {
+        NavigationManager.NavigateTo("/buyticket");
+    }
 
 }
