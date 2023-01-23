@@ -29,19 +29,31 @@ namespace Ready2Ride.Server.Controllers
         {
             var user = await _usermanager.Users.ToListAsync();
             List<UserDto> u = new List<UserDto>();
-            foreach (var n in user) {
+            foreach (var n in user)
+            {
                 u.Add(new UserDto
                 {
-                    Email=n.Email,
-                    EmailConfirmation=n.EmailConfirmed,
-                    UserId=n.Id,
-                    UserName=n.UserName,
-                    FirstName=n.FirstName, 
-                    LastName=n.LastName,
+                    Email = n.Email,
+                    EmailConfirmation = n.EmailConfirmed,
+                    UserId = n.Id,
+                    UserName = n.UserName,
+                    FirstName = n.FirstName,
+                    LastName = n.LastName,
                 });
-            
+
             }
             return Ok(u);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> BuyTicket()
+        {
+
+        }
+
+
+
+
+
     }
 }
