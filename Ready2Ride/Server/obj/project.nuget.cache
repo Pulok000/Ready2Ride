@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3WGqAdMPabU778Vejxr2PRIgQXglEIeK96xH3XnyoMPoU9UIm9X22Hmc9MmAfwfnsQP/LYwOBPU8pptAEiZT4w==",
+  "dgSpecHash": "gIeEKVyxJNuQjIvwrfS6JR7ZopKVRf5Sl6Ls+UxX5D/afMENA/hsrDGQaxoTMjUFnw84TUhZunjEODEpmdK1RA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Server\\Ready2Ride.Server.csproj",
+  "projectFilePath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Server\\Ready2Ride.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\88016\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\88016\\.nuget\\packages\\duende.identityserver\\5.2.0\\duende.identityserver.5.2.0.nupkg.sha512",

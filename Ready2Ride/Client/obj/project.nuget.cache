@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PzI++tZOb6/RKiXYd78ew92K8jMfHCqnvIo19LpXYAEk6wOctVgqv+Whekxad4/fYyx8UGVRTYYRhAF3IRxq2g==",
+  "dgSpecHash": "snxeDOWgAxnyJQbMBdFHbwI9NitpOKyg+4U3usBqStXyr+fVqb91cXENZ9LTy6ueAMLwPL6mgubdNgiJpfboWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\Ready2Ride.Client.csproj",
+  "projectFilePath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Client\\Ready2Ride.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.12\\microsoft.aspnetcore.authorization.6.0.12.nupkg.sha512",
     "C:\\Users\\88016\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.12\\microsoft.aspnetcore.components.6.0.12.nupkg.sha512",

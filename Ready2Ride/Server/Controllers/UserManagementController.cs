@@ -6,6 +6,12 @@ using Microsoft.EntityFrameworkCore;
 using Ready2Ride.Server.Data;
 using Ready2Ride.Server.Models;
 using Ready2Ride.Shared;
+using System.Text.Json;
+
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
+using Microsoft.AspNetCore.Http;
+
 
 namespace Ready2Ride.Server.Controllers
 {
@@ -38,8 +44,8 @@ namespace Ready2Ride.Server.Controllers
                     EmailConfirmation = n.EmailConfirmed,
                     UserId = n.Id,
                     UserName = n.UserName,
-                    FirstName = n.FirstName,
-                    LastName = n.LastName,
+                    UserType = n.UserType,
+
                 });
 
             }
@@ -50,6 +56,19 @@ namespace Ready2Ride.Server.Controllers
 
 
 
+
+        [HttpGet("userType")]
+        public async Task<IActionResult> GetUserType()
+        {
+            var email = User.Identity.Name;
+            var user = await _applicationDbContext.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
+            var userType = user?.UserType;
+            if (userType == null)
+            {
+                return NotFound();
+            }
+            return Ok(userType);
+        }
 
 
 

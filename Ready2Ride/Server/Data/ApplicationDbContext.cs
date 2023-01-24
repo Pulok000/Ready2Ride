@@ -4,6 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Ready2Ride.Server.Models;
 using Ready2Ride.Shared;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+
+
 
 namespace Ready2Ride.Server.Data
 {
@@ -15,5 +19,8 @@ namespace Ready2Ride.Server.Data
         {
         }
         public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<UserInfo> Users { get; set; }
+
+
     }
 }

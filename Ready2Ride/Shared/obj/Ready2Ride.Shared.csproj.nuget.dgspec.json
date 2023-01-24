@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj": {}
+    "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj": {
+    "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj",
         "projectName": "Ready2Ride.Shared",
-        "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj",
+        "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj",
         "packagesPath": "C:\\Users\\88016\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\88016\\AppData\\Roaming\\NuGet\\NuGet.Config",

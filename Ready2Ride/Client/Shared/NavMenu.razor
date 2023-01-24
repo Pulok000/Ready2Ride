@@ -1,4 +1,8 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using Microsoft.AspNetCore.Authorization;
+
+
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Ready2Ride</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -16,31 +20,67 @@
         </div>
 
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="buyticket" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Buy Bus Ticket
-            </NavLink>
-        </div>
+        <AuthorizeView >
+            <Authorized>
+
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="ticketlist" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> Bus Owner DashBoard
+                    </NavLink>
+                </div>
 
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="ticketlist" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> See ticket info
-            </NavLink>
-        </div>
+            </Authorized>
+            <NotAuthorized>
+               
+            </NotAuthorized>
+        </AuthorizeView>
+
+
+        <AuthorizeView Roles="bus1@gmail.com">
+            <Authorized>
+
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="ticketlist" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> Bus Owner DashBoard
+                    </NavLink>
+                </div>
+
+
+            </Authorized>
+            <NotAuthorized>
+
+            </NotAuthorized>
+        </AuthorizeView>
 
 
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </div>
+
+
+        <AuthorizeView>
+            <Authorized>
+
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="buyticket" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> Buy Bus Ticket
+                    </NavLink>
+                </div>
+
+
+            </Authorized>
+            <NotAuthorized>
+
+            </NotAuthorized>
+        </AuthorizeView>
+
+
+
+
+
+
+
+
+
     </nav>
 </div>
 

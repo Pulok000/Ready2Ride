@@ -11600,11 +11600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Server\\Ready2Ride.Server.csproj",
+      "projectUniqueName": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Server\\Ready2Ride.Server.csproj",
       "projectName": "Ready2Ride.Server",
-      "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Server\\Ready2Ride.Server.csproj",
+      "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Server\\Ready2Ride.Server.csproj",
       "packagesPath": "C:\\Users\\88016\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Server\\obj\\",
+      "outputPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\88016\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11621,11 +11621,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\Ready2Ride.Client.csproj": {
-              "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Client\\Ready2Ride.Client.csproj"
+            "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Client\\Ready2Ride.Client.csproj": {
+              "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Client\\Ready2Ride.Client.csproj"
             },
-            "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj": {
-              "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj"
+            "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj": {
+              "projectPath": "C:\\Users\\88016\\source\\repos\\Ready2Ride main\\Ready2Ride\\Shared\\Ready2Ride.Shared.csproj"
             }
           }
         }

@@ -1,9 +1,51 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Http
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Ready2Ride.Shared;
+@using System.Text.Json;
 
-<PageTitle>Index</PageTitle>
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+@attribute [Authorize]
+@inject HttpClient Http
+@inject HttpClient Context
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<AuthorizeView>
+    <Authorized>
+        <h1>Welcome @context.User.Identity.Name</h1>
+        
+        <p>Your User Type is: @userType</p>
+    </Authorized>
+    <NotAuthorized>
+        <span>Please Register to see the dashboard</span>
+    </NotAuthorized>
+</AuthorizeView>
+@code {
+
+  //Attempt: tried to get the UserType data from asp.net.user table. 
+ // based on that the pages could have been restricted
+
+    private string userType ;
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+
+        try
+        {
+            var response = await Http.GetFromJsonAsync<string>("api/UserManagement/userType");
+            userType = response;
+        }
+        catch (Exception)
+        {
+            userType = "Error Occured";
+        }
+    }
+
+
+
+}

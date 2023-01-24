@@ -16,7 +16,8 @@ namespace Ready2Ride.Shared
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-       
+        public string UserType { get; set; }
+
         public UserDto() { }
     }
 }
